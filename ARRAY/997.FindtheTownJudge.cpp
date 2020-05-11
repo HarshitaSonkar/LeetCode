@@ -6,8 +6,7 @@ public:
         vector<int> out(N+1);
         int judge = -1;
         
-        for(int i=0; i<trust.size(); i++)
-        {
+        for(int i=0; i<trust.size(); i++){
             in[trust[i][1]]++;
             out[trust[i][0]]++;
         }
