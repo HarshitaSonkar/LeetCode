@@ -15,9 +15,7 @@ public:
         for(int i=0; i<=N; i++)
             if(in[i] == N - 1 && out[i] == 0)
                 judge = i;
-        
+       
         return judge;
-
-        
     }
 };
