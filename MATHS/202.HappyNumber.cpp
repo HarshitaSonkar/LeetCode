@@ -26,8 +26,7 @@ public:
     }
 };
         
-    
-/* 
+  /* 
  auto sumSq = [](int n, int r = 0) { for (; n > 0; n /= 10) r += (n % 10) * (n % 10); 
                                            return r; };
   int tort = sumSq(n), hare = sumSq(sumSq(n));
