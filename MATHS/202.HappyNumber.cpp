@@ -33,8 +33,8 @@ public:
   while (tort != hare) tort = sumSq(tort), hare = sumSq(sumSq(hare));
   return tort == 1;
     }
-};
-
+};    */
+/*
 class Solution {
 public:
     bool isHappy(int n) {
