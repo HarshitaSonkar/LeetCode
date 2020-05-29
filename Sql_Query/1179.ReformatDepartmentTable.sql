@@ -13,6 +13,5 @@ MAX(CASE WHEN month = 'Sep' THEN revenue ELSE null END) AS Sep_Revenue,
 MAX(CASE WHEN month = 'Oct' THEN revenue ELSE null END) AS Oct_Revenue,
 MAX(CASE WHEN month = 'Nov' THEN revenue ELSE null END) AS Nov_Revenue,
 MAX(CASE WHEN month = 'Dec' THEN revenue ELSE null END) AS Dec_Revenue
-
 FROM Department
 GROUP BY id
