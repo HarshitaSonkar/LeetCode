@@ -1,4 +1,4 @@
-'''
+
 class KthLargest {
     
     priority_queue<int, vector<int>, greater<int>> pq;
@@ -27,4 +27,4 @@ public:
  * KthLargest* obj = new KthLargest(k, nums);
  * int param_1 = obj->add(val);
  */                      
-'''
+
