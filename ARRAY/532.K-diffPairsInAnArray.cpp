@@ -2,8 +2,10 @@ class Solution {
 public:
     int findPairs(vector<int>& nums, int k) {
 
-if(k < 0) return 0;
-        if(nums.size() < 0) return 0;
+        if(k < 0) 
+            return 0;
+        if(nums.size() < 0) 
+            return 0;
         sort(nums.begin(),nums.end());
         int ans = 0;
         int p1 = 0;
