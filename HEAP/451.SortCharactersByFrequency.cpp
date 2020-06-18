@@ -16,7 +16,7 @@ public:
         while(!empty(pq)) {
             val = pq.top().first;
             while(val) {
-                sol += pq.top().second;
+                sol += pq.top().second;         // sol += pq.top().second  NOT  sol = so; + pq.top().second 
                 val--;
             }
             pq.pop();
